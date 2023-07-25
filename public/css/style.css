@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+* {
+    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Nunito Sans', sans-serif;  */
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+nav {
+    background-color: #dff3ff;
+    width: 100%;
+}
+
+nav .nav-item {
+    text-align: center;
+}
+
+#About, #doctors, #contact {
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+
+
+/* home page css start from here  */
+
+#starter {
+    background-color: #eef8ff;
+    width: 100%;
+    margin-top: 8vh;
+
+}
+
+#starter #starter-text {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#starter button:hover a {
+    text-decoration: none;
+    color: white;
+}
+
+.our-feature .media-body .fa {
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: #337ab7;
+}
+
+.features-heading {
+    font-size: 38px;
+    color: #000;
+    font-weight: 700;
+    padding: 0;
+    position: relative;
+    display: block;
+    padding-bottom: 10px;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+}
+
+.our-feature {
+    background: linear-gradient(to bottom, #ffffff, #dff3ff);
+}
+
+/* home page css en here  */
+
+/* About us page css start from here  */
+
+
+#About .fst-italic {
+    font-family: inherit !important;
+    padding: 1rem 0;
+    font-size: 18px;
+}
+
+#About ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+#About ul li i {
+    font-size: 20px;
+    color: rgba(26, 167, 255, 0.922);
+    background: transparent;
+    padding-right: 1rem;
+}
+
+.counts {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.counts .count-box {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 10px;
+    padding: 30px;
+    width: 100%;
+    margin: 1rem 1rem;
+}
+
+.counts .count-box:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+
+.counts .count-box i {
+    display: block;
+    font-size: 30px;
+    color: #3fbbc0;
+    float: left;
+}
+
+.counts .count-box p {
+    padding: 30px 0 0 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+.counts .count-box a {
+    font-weight: 600;
+    display: block;
+    margin-top: 20px;
+    color: #7b7b7b;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    transition: ease-in-out 0.3s;
+}
+
+.features {
+    margin: 6rem 0;
+}
+
+.features img {
+    width: 100%;
+    padding: 0rem 2rem;
+}
+
+.features .icon-box i {
+    font-size: 48px;
+    float: left;
+    color: #3fbbc0;
+}
+
+.features .icon-box h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px 0 10px 100px;
+}
+
+.features .icon-box p {
+    font-size: 15px;
+    color: #848484;
+    margin-left: 100px;
+}
+
+/* About us page css end here  */
+
+
+/* Doctor page css start from here  */
+
+
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #2c4964;
+}
+
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #1977cc;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+.section-title h2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+
+.doctors .member {
+    position: relative;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.doctors .member .pic img {
+    transition: ease-in-out 0.3s;
+}
+
+.doctors .member .member-info {
+    padding-left: 30px;
+}
+
+.doctors .member .pic {
+    overflow: hidden;
+    width: 30%;
+    border-radius: 50%;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.doctors .member:hover img {
+    transform: scale(1.1);
+}
+
+.doctors .member .social {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.doctors .member .social a {
+    transition: ease-in-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 32px;
+    height: 32px;
+    background: #a0bcd5;
+    color: white;
+}
+
+.doctors .member .social a:hover {
+    text-decoration: none;
+    background: transparent;
+    color: #0061f9e0;
+}
+
+.doctors .member .social a+a {
+    margin-left: 8px;
+}
+
+#accordion {
+    padding: 0rem 0rem;
+    background: linear-gradient(to bottom, #ffffff, #dff3ff);
+}
+
+#accordion .card {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 0.5rem 0rem;
+
+}
+
+#accordion .card .card-header {
+    background-color: white;
+
+}
+
+#accordion .card .card-header h6 i {
+    font-size: 20px;
+    color: rgba(26, 167, 255, 0.922);
+}
+
+#accordion .card .card-header:hover {
+    cursor: pointer;
+    color: rgba(26, 167, 255, 0.922);
+
+}
+
+
+/* Doctor page css end  here  */
+
+
+/* Contact page css start from here  */
+.contact .info-box {
+    color: #444444;
+    text-align: center;
+    box-shadow: #dff3ff 0px 0px 161px 10px;
+    padding: 20px 0 30px 0;
+}
+
+
+.contact .info-box i {
+    font-size: 32px;
+    color: #3fbbc0;
+    border-radius: 50%;
+    padding: 10px;
+    border: 2px dotted #30f8ff;
+}
+
+.contact .info-box h3 {
+    font-size: 20px;
+    color: #777777;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.contact .info-box p {
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.contact .php-email-form {
+    box-shadow: 0 0 20px rgb(214 215 216 / 50%);
+    padding: 30px;
+}
+
+.col {
+    flex: 1 0 0%;
+}
+
+.contact .php-email-form input {
+    padding: 10px 15px;
+}
+
+.contact .php-email-form button[type=submit] {
+    background: #3fbbc0;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+
+
+/* Contact page css end here  */
+
+/* Appointment Form css strat from here  */
+
+#Appointment {
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+
+#Appointment ::placeholder {
+    font-size: 1.2rem;
+    color: rgb(157, 157, 157);
+}
+
+#AppointmentForm {
+    padding: 4rem 3rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 1rem;
+}
+
+/* Appointment Form css end here  */
+
+/* Pagination CSS start From here */
+
+.table-responsive nav {
+    background-color: #fff;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff !important;
+    background-color: #17a2b8 !important;
+    border-color: #007bff;
+}
+
+.page-link {
+    color: #17a2b8 !important;
+}
+
+/* Pagination CSS end here */
+
+/* Sign Up css start from here  */
+
+#SignUp {
+    margin-top: 5%;
+    margin-bottom: 8%;
+
+}
+
+label {
+    cursor: pointer;
+}
+
+/* Sign Up css end here  */
+
+
+/* Footer css start from here  */
+
+footer {
+    background-color: #dff3ff;
+}
+
+footer .btn {
+    color: #007bff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #007bff;
+}
+
+/* Footer css end here  */
+
+
+/* Media queries css start from here  */
+
+@media only screen and (max-width: 1000px) {
+    #Starter2 .container img {
+        width: 100%;
+    }
+
+    #AppointmentForm .col-md-5 {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 520px) {
+    .doctors .member .pic {
+        display: none;
+    }
+
+    .doctors .member .member-info {
+        padding-left: 0px;
+    }
+}
